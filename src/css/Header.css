@@ -1,4 +1,4 @@
-.Title {
+.Header {
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -9,7 +9,7 @@
     background-color: rgb(100, 175, 141);
     color: #892828;
 }
-.SubTitle {
+.SubHeader {
     display: flex;
     color: green;
 }

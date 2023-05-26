@@ -1,12 +1,16 @@
 import React from 'react'
-import Title from "./comp/Title";
+import Header from "./comp/Header";
+import Content from "./comp/Content";
 
 function App()
 {
   return (
 
   <div className="App">
-  <Title />
+  <Header />
+    <Content />
+    <Content />
+    <Header />
   </div>
 
   );
