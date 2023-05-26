@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from "./comp/Header";
-import Content from "./comp/Content";
+import Cont from "./comp/Cont";
 
 function App()
 {
@@ -8,9 +8,8 @@ function App()
 
   <div className="App">
   <Header />
-    <Content />
-    <Content />
-    <Header />
+    <Cont />
+
   </div>
 
   );
