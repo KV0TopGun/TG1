@@ -1,16 +1,14 @@
 import React from 'react'
-import logo from '../img/logo.svg'
 
-function ContIMG () {
+
+function ContIMG(props) {
+    const { name, image, address } = props
     return (
         <div>
-            <h1>Name...</h1>
-            <img src={logo} width="300" height="300" alt="logo" />
-
-            <div>TEXT...</div>
+            <h1>{props.name}</h1>
+            <img src={`${process.env.PUBLIC_URL}images/${image}`} />
+            <div>{props.address}</div>
         </div>
-
-
     )
 }
 
