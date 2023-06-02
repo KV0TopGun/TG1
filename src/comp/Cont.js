@@ -1,5 +1,6 @@
 import React from 'react'
 import ContIMG from './ContIMG.js';
+import '../css/Cont.css'
 
 
 function Cont () {
@@ -12,9 +13,14 @@ function Cont () {
     image="logo.svg"
      />
     <ContIMG
-        name="Aaa"
+        name="CCC"
         address="GGG"
         image="test.jpg"
+    />
+    <ContIMG
+    name="BBB"
+    address="UUU"
+    image="test2.jpg"
     />
 </div>
 

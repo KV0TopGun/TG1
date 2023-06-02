@@ -1,0 +1,8 @@
+.String{
+    width: 100%;
+    text-align: center;
+}
+.String > img {
+    width: 100%;
+    height: auto;
+}

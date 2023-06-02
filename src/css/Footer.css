@@ -1,0 +1,16 @@
+.Footer {
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(148, 100, 175);
+    color: #c0a620;
+}
+.SubFooter {
+    display: flex;
+    color: #38b6a7;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto ;
+}
