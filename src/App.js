@@ -3,6 +3,7 @@ import Header from "./comp/Header";
 import Cont from "./comp/Cont";
 import Footer from "./comp/Footer";
 
+
 function App()
 {
   return (
@@ -10,7 +11,7 @@ function App()
   <div className="App">
   <Header />
     <Cont />
-    <Footer/>
+    <Footer />
   </div>
 
   );

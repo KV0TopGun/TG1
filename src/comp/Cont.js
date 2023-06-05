@@ -1,6 +1,7 @@
 import React from 'react'
 import ContIMG from './ContIMG.js';
 import '../css/Cont.css'
+import Citem from "./Citem";
 
 
 function Cont () {
@@ -22,6 +23,8 @@ function Cont () {
     address="UUU"
     image="test2.jpg"
     />
+
+    <Citem post={{id:1, title:'GGG',body: 'OOO' }}/>
 </div>
 
     )
