@@ -9,8 +9,8 @@ import Clist from "./Clist";
 function Cont () {
     const [ posts, setPosts] = useState ([
         {id:1, title :"Array", body:"Descr"},
-        {id:2, title :"Array", body:"Descr"},
-        {id:3, title :"Array", body:"Descr"},
+        {id:2, title :"Array2", body:"Descr"},
+        {id:3, title :"Array3", body:"Descr"},
     ])
 
 return (
@@ -34,7 +34,7 @@ return (
 
     <Citem post={{id:1, title:'GGG',body: 'OOO' }}/>
     <Citem post={{id:2, title:'BBB',body: '111' }}/>
-    <Clist posts={posts}/>
+    <Clist posts={posts} title="uma"/>
 </div>
 
     )
